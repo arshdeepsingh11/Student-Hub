@@ -10,9 +10,19 @@
   --foreground: #171717;
 }
 
+#__next {
+  position: relative;
+}
+
+#__next > div {
+  display: none;
+}
+
+
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #f5efef;
     --foreground: #ededed;
   }
 }
