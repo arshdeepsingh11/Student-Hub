@@ -14,7 +14,7 @@ const Navbar = () => {
         {/* Links */}
         <div className="hidden md:flex space-x-8">
           <Link href="#students" className="text-white hover:text-gray-200 transition duration-200">Students</Link>
-          <Link href="#reports" className="text-white hover:text-gray-200 transition duration-200">Reports</Link>
+          <Link href="#studentForm" className="text-white hover:text-gray-200 transition duration-200">Add Student</Link>
           <Link href="#settings" className="text-white hover:text-gray-200 transition duration-200">Settings</Link>
         </div>
 
